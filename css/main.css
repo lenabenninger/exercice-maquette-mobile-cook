@@ -2,8 +2,6 @@
 // css variables
 // ==================================== */
 
-:root {
-}
 
 /* ====================================
 // reset rules
@@ -26,10 +24,69 @@ body {
 
   font-size: 1rem;
   line-height: 1.5rem;
+  max-width: 320px;
+  margin: 0 auto;
 }
 
 a {
   color: inherit;
+  font-family: 'Libre Franklin';
+  font-size: 16px;
+}
+
+header h2 {
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+header h3 {
+  font-family: 'Sorts Mill Goudy', serif;
+  font-size: 24px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+header p {
+  font-family: 'Sorts Mill Goudy', serif;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.author {
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+main {
+  font-family: 'Sorts Mill Goudy', serif;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+main div {
+  background-color: #fff;
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.2;
+  text-align: center;
+}
+
+footer h3 {
+  font-family: 'Sorts Mill Goudy', serif;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+footer p {
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 16px;
 }
 
 img,
